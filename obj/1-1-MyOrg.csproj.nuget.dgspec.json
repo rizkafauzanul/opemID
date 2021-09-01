@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\DeniaL\\git\\sso-apps\\active-directory-aspnetcore-webapp-openidconnect-v2\\1-WebApp-OIDC\\1-1-MyOrg\\1-1-MyOrg.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\DeniaL\\git\\sso-apps\\active-directory-aspnetcore-webapp-openidconnect-v2\\1-WebApp-OIDC\\1-1-MyOrg\\1-1-MyOrg.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DeniaL\\git\\sso-apps\\active-directory-aspnetcore-webapp-openidconnect-v2\\1-WebApp-OIDC\\1-1-MyOrg\\1-1-MyOrg.csproj",
+        "projectName": "1-1-MyOrg",
+        "projectPath": "C:\\Users\\DeniaL\\git\\sso-apps\\active-directory-aspnetcore-webapp-openidconnect-v2\\1-WebApp-OIDC\\1-1-MyOrg\\1-1-MyOrg.csproj",
+        "packagesPath": "C:\\Users\\DeniaL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DeniaL\\git\\sso-apps\\active-directory-aspnetcore-webapp-openidconnect-v2\\1-WebApp-OIDC\\1-1-MyOrg\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DeniaL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.8, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[5.0.8, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.Identity.Web": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Identity.Web.UI": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

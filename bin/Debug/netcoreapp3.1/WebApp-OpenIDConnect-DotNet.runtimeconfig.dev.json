@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\DeniaL\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\DeniaL\\.nuget\\packages"
+    ]
+  }
+}
